@@ -33,6 +33,30 @@ for i in range(4, 28):
 allRoundRows
 
 len(allRoundRows)
+len(allRoundRows[0])
+len(allRoundRows[1])
+len(allRoundRows[2])
+len(allRoundRows[3])
+len(allRoundRows[4])
+len(allRoundRows[5])
+len(allRoundRows[6])
+len(allRoundRows[7])
+len(allRoundRows[8])
+len(allRoundRows[9])
+len(allRoundRows[10])
+len(allRoundRows[11])
+len(allRoundRows[12])
+len(allRoundRows[13])
+len(allRoundRows[14])
+len(allRoundRows[15])
+len(allRoundRows[16])
+len(allRoundRows[17])
+len(allRoundRows[18])
+len(allRoundRows[19])
+len(allRoundRows[20])
+len(allRoundRows[21])
+len(allRoundRows[22])
+len(allRoundRows[23])
 
 # allRoundRows is a list of lists. Contains 24 lists, one for each
 # round with each containing the <tr> of the round table as elements.
