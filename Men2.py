@@ -62,6 +62,30 @@ len(allRoundRows[23])
 # round with each containing the <tr> of the round table as elements.
 # So... I want to make a new list of lists. One that contains 24 lists,
 # one for each round containing the text of each game row.
+
+# Test with only one round from allRoundRows
+data = []
+
+for row in allRoundRows[0]:
+    rowText = row.text
+    if re.search(pattern, rowText):
+        #     print("Found a match")
+        # else:
+        #     print("No match found!")
+        m = re.search(pattern, rowText)
+        row_list = []
+        round = "1"
+        day = m.group(1)
+        date = m.group(2)
+        time = m.group(3) + " " + m.group(4)
+        team1name = m.group(5)
+        row_list = [round, day, date, time, team1name]
+        data.append(row_list)
+
+data
+
+# Superceded below
+
 rowText = allRoundRows[0][2].text
 
 if re.search(pattern, rowText):
