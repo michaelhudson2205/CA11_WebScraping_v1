@@ -2,6 +2,7 @@
 # pip install requests
 # pip install beautifulsoup4
 
+import csv
 import re
 
 import requests
@@ -30,34 +31,6 @@ for i in range(4, 28):
     RoundRows = allTables[i].find_all("tr")
     allRoundRows.append(RoundRows)
 
-allRoundRows
-
-len(allRoundRows)
-len(allRoundRows[0])
-len(allRoundRows[1])
-len(allRoundRows[2])
-len(allRoundRows[3])
-len(allRoundRows[4])
-len(allRoundRows[5])
-len(allRoundRows[6])
-len(allRoundRows[7])
-len(allRoundRows[8])
-len(allRoundRows[9])
-len(allRoundRows[10])
-len(allRoundRows[11])
-len(allRoundRows[12])
-len(allRoundRows[13])
-len(allRoundRows[14])
-len(allRoundRows[15])
-len(allRoundRows[16])
-len(allRoundRows[17])
-len(allRoundRows[18])
-len(allRoundRows[19])
-len(allRoundRows[20])
-len(allRoundRows[21])
-len(allRoundRows[22])
-len(allRoundRows[23])
-
 # allRoundRows is a list of lists. Contains 24 lists, one for each
 # round with each containing the <tr> of the round table as elements.
 # So... I want to make a new list of lists. One that contains 24 lists,
@@ -66,34 +39,45 @@ len(allRoundRows[23])
 # Test with only one round from allRoundRows
 data = []
 
-for row in allRoundRows[0]:
-    rowText = row.text
-    if re.search(pattern, rowText):
-        #     print("Found a match")
-        # else:
-        #     print("No match found!")
-        m = re.search(pattern, rowText)
-        row_list = []
-        round = "1"
-        day = m.group(1)
-        date = m.group(2)
-        time = m.group(3) + " " + m.group(4)
-        team1name = m.group(5)
-        row_list = [round, day, date, time, team1name]
-        data.append(row_list)
+for i in range(24):
+    for row in allRoundRows[i]:
+        rowText = row.text
+        if re.search(pattern, rowText):
+            #     print("Found a match")
+            # else:
+            #     print("No match found!")
+            m = re.search(pattern, rowText)
+            row_list = []
+            roundno = str(i + 1)
+            day = m.group(1)
+            date = m.group(2)
+            time = m.group(3) + " " + m.group(4)
+            team1name = m.group(5)
+            team1score = m.group(6)
+            team1_win_status = m.group(7)
+            team2name = m.group(8)
+            team2score = m.group(9)
+            location = m.group(10)
+            attendance = m.group(11)
+            row_list = [
+                roundno,
+                day,
+                date,
+                time,
+                team1name,
+                team1score,
+                team1_win_status,
+                team2name,
+                team2score,
+                location,
+                attendance,
+            ]
+            data.append(row_list)
 
 data
 
-# Superceded below
-
-rowText = allRoundRows[0][2].text
-
-if re.search(pattern, rowText):
-    print("Found a match")
-else:
-    print("No match found")
-
 header = [
+    "Round",
     "Day",
     "Date",
     "Time",
@@ -106,33 +90,9 @@ header = [
     "Crowd_Attendance",
 ]
 
-data = []
+with open("M_AFL_2023.csv", "w", newline="", encoding="utf-8") as file:
+    writer = csv.writer(file)
+    writer.writerow(header)
+    writer.writerows(data)
 
-capturedColumns = re.search(pattern, rowText)
-row_list = []
-day = capturedColumns.group(1)
-date = capturedColumns.group(2)
-time = capturedColumns.group(3) + " " + capturedColumns.group(4)
-team1name = capturedColumns.group(5)
-team1score = capturedColumns.group(6)
-team1_win_status = capturedColumns.group(7)
-team2name = capturedColumns.group(8)
-team2score = capturedColumns.group(9)
-location = capturedColumns.group(10)
-attendance = capturedColumns.group(11)
-
-row_list = [
-    day,
-    date,
-    time,
-    team1name,
-    team1score,
-    team1_win_status,
-    team2name,
-    team2score,
-    location,
-    attendance,
-]
-data.append(row_list)
-
-data
+file.close()
