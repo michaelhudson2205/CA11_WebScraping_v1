@@ -2,22 +2,24 @@
 # pip install requests
 # pip install beautifulsoup4
 
+# Built-in Modules
 import csv
 import re
 
+# External Modules
 import requests
 from bs4 import BeautifulSoup
 
 url = "https://en.wikipedia.org/wiki/2023_AFL_season"
 
-response = requests.get(url)
+response = requests.get(url, timeout=10)
 html = response.text
 soup = BeautifulSoup(html, "html.parser")
 response.close()
 
 # pattern = "'\\n(.+day), (\d+ .+) \((\d+:\d+)\\xa0([a,p]m)\)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.+?)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.*?) \(crowd:\\xa0(\d+,\d+)"
 
-pattern = "^\\n(.+day), (\d+ .+) \((\d+:\d+)\\xa0([a,p]m)\)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.+?)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.*?) \(crowd:\\xa0(\d+,\d+)\)\\n\\nReportStats\\n$"
+PATTERN = "^\\n(.+day), (\d+ .+) \((\d+:\d+)\\xa0([a,p]m)\)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.+?)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.*?) \(crowd:\\xa0(\d+,\d+)\)\\n\\nReportStats\\n$"
 
 # pattern
 
@@ -42,11 +44,11 @@ data = []
 for i in range(24):
     for row in allRoundRows[i]:
         rowText = row.text
-        if re.search(pattern, rowText):
+        if re.search(PATTERN, rowText):
             #     print("Found a match")
             # else:
             #     print("No match found!")
-            m = re.search(pattern, rowText)
+            m = re.search(PATTERN, rowText)
             row_list = []
             roundno = str(i + 1)
             day = m.group(1)
@@ -58,7 +60,7 @@ for i in range(24):
             team2name = m.group(8)
             team2score = m.group(9)
             location = m.group(10)
-            attendance = m.group(11)
+            attendance = int(m.group(11).replace(",", ""))
             row_list = [
                 roundno,
                 day,
