@@ -10,13 +10,14 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://en.wikipedia.org/wiki/2023_AFL_season"
+url = "https://en.wikipedia.org/wiki/2023_AFL_Women%27s_season"
 
 response = requests.get(url, timeout=10)
 html = response.text
 soup = BeautifulSoup(html, "html.parser")
 response.close()
 
+# print(soup.prettify())
 # pattern = "'\\n(.+day), (\d+ .+) \((\d+:\d+)\\xa0([a,p]m)\)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.+?)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.*?) \(crowd:\\xa0(\d+,\d+)"
 
 PATTERN = "^\\n(.+day), (\d+ .+) \((\d+:\d+)\\xa0([a,p]m)\)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.+?)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.*?) \(crowd:\\xa0(\d*,*\d+)\)\\n\\nReportStats\\n$"
@@ -26,12 +27,15 @@ PATTERN = "^\\n(.+day), (\d+ .+) \((\d+:\d+)\\xa0([a,p]m)\)\\n\\n(.*?) \d+.\d+ \
 # print(soup.prettify())
 
 allTables = soup.find_all("table")
+# allTables[4]
 
 allRoundRows = []
 
-for i in range(4, 28):
+for i in range(4, 14):
     RoundRows = allTables[i].find_all("tr")
     allRoundRows.append(RoundRows)
+
+# allRoundRows
 
 # allRoundRows is a list of lists. Contains 24 lists, one for each
 # round with each containing the <tr> of the round table as elements.
@@ -39,9 +43,20 @@ for i in range(4, 28):
 # one for each round containing the text of each game row.
 
 # Test with only one round from allRoundRows
+# Test with only one round from allRoundRows
+allRoundRows[5][2].text
+allRoundRows[5][3].text
+allRoundRows[5][4].text
+allRoundRows[5][5].text
+allRoundRows[9][5].text
+allRoundRows[9][6].text
+allRoundRows[9][7].text
+allRoundRows[9][8].text
+
+
 data = []
 
-for i in range(24):
+for i in range(10):
     for row in allRoundRows[i]:
         rowText = row.text
         if re.search(PATTERN, rowText):
@@ -50,7 +65,7 @@ for i in range(24):
             #     print("No match found!")
             m = re.search(PATTERN, rowText)
             row_list = []
-            league = "AFL-M"
+            league = "AFL-W"
             roundno = str(i + 1)
             day = m.group(1)
             date = m.group(2)
@@ -95,9 +110,16 @@ header = [
     "Crowd_Attendance",
 ]
 
-with open("M_AFL_2023.csv", "w", newline="", encoding="utf-8") as file:
+with open("W_AFL_2023.csv", "w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
     writer.writerow(header)
     writer.writerows(data)
 
 file.close()
+
+# ==== testing checking the number of lines to avoid writing headers twice
+with open("W_AFL_2023.csv", "r") as fp:
+    for count, line in enumerate(fp):
+        pass
+print("Total Line", count + 1)
+fp.close()
