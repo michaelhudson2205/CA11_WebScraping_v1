@@ -20,7 +20,9 @@ response.close()
 # print(soup.prettify())
 # pattern = "'\\n(.+day), (\d+ .+) \((\d+:\d+)\\xa0([a,p]m)\)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.+?)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.*?) \(crowd:\\xa0(\d+,\d+)"
 
-PATTERN = "^\\n(.+day), (\d+ .+) \((\d+:\d+)\\xa0([a,p]m)\)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.+?)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.*?) \(crowd:\\xa0(\d*,*\d+)\)\\n\\nReportStats\\n$"
+PATTERN_game_info = "^\\n(.+day), (\d+ .+) \((\d+:\d+)\\xa0([a,p]m)\)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.+?)\\n\\n(.*?) \d+.\d+ \((\d+)\)\\n\\n(.*?) \(crowd:\\xa0(\d*,*\d+)\)\\n\\nReportStats\\n$"
+
+PATTERN_round_number = "^\\n\\n\\nRound (\d+)"
 
 # pattern
 
@@ -44,14 +46,23 @@ for i in range(4, 14):
 
 # Test with only one round from allRoundRows
 # Test with only one round from allRoundRows
-allRoundRows[5][2].text
-allRoundRows[5][3].text
-allRoundRows[5][4].text
-allRoundRows[5][5].text
-allRoundRows[9][5].text
-allRoundRows[9][6].text
-allRoundRows[9][7].text
-allRoundRows[9][8].text
+allRoundRows[0][1].text
+allRoundRows[1][1].text
+allRoundRows[2][1].text
+allRoundRows[3][1].text
+allRoundRows[4][1].text
+allRoundRows[5][1].text
+allRoundRows[6][1].text
+allRoundRows[7][1].text
+allRoundRows[8][1].text
+allRoundRows[9][1].text
+# allRoundRows[5][3].text
+# allRoundRows[5][4].text
+# allRoundRows[5][5].text
+# allRoundRows[9][5].text
+# allRoundRows[9][6].text
+# allRoundRows[9][7].text
+# allRoundRows[9][8].text
 
 
 data = []
@@ -59,11 +70,14 @@ data = []
 for i in range(10):
     for row in allRoundRows[i]:
         rowText = row.text
-        if re.search(PATTERN, rowText):
+        if re.search(PATTERN_round_number, rowText):
+            m2 = re.search(PATTERN_round_number, rowText)
+            roundno = m2.group(1)
+        if re.search(PATTERN_game_info, rowText):
             #     print("Found a match")
             # else:
             #     print("No match found!")
-            m = re.search(PATTERN, rowText)
+            m = re.search(PATTERN_game_info, rowText)
             row_list = []
             league = "AFL-W"
             roundno = str(i + 1)
