@@ -1,0 +1,298 @@
+League,Round,Day,Date,Time,First_Team_Name,First_Team_Score,First_Team_Win_Status,Second_Team_Name,Second_Team_Score,Location,Crowd_Attendance
+AFL-M,1,Thursday,16 March,7:20 pm,Richmond,58,drew with,Carlton,58,Melbourne Cricket Ground,88084
+AFL-M,1,Friday,17 March,7:40 pm,Geelong,103,def. by,Collingwood,125,Melbourne Cricket Ground,86595
+AFL-M,1,Saturday,18 March,1:45 pm,North Melbourne,87,def.,West Coast,82,Marvel Stadium,21274
+AFL-M,1,Saturday,18 March,4:05 pm,Port Adelaide,126,def.,Brisbane Lions,72,Adelaide Oval,34255
+AFL-M,1,Saturday,18 March,7:25 pm,Melbourne,115,def.,Western Bulldogs,65,Melbourne Cricket Ground,48103
+AFL-M,1,Saturday,18 March,7:00 pm,Gold Coast,61,def. by,Sydney,110,Heritage Bank Stadium,13648
+AFL-M,1,Sunday,19 March,1:10 pm,Greater Western Sydney,106,def.,Adelaide,90,Giants Stadium,8169
+AFL-M,1,Sunday,19 March,3:20 pm,Hawthorn,65,def. by,Essendon,124,Melbourne Cricket Ground,68691
+AFL-M,1,Sunday,19 March,4:40 pm,St Kilda,67,def.,Fremantle,52,Marvel Stadium,23429
+AFL-M,2,Thursday,23 March,7:20 pm,Carlton,90,def.,Geelong,82,Melbourne Cricket Ground,55861
+AFL-M,2,Friday,24 March,6:55 pm,Brisbane Lions,93,def.,Melbourne,82,The Gabba,30047
+AFL-M,2,Saturday,25 March,1:45 pm,Collingwood,135,def.,Port Adelaide,64,Melbourne Cricket Ground,60744
+AFL-M,2,Saturday,25 March,4:05 pm,Adelaide,76,def. by,Richmond,108,Adelaide Oval,38492
+AFL-M,2,Saturday,25 March,7:25 pm,Western Bulldogs,41,def. by,St Kilda,92,Marvel Stadium,33294
+AFL-M,2,Saturday,25 March,4:30 pm,Fremantle,72,def. by,North Melbourne,73,Optus Stadium,40487
+AFL-M,2,Sunday,26 March,1:10 pm,Sydney,118,def.,Hawthorn,37,Sydney Cricket Ground,37052
+AFL-M,2,Sunday,26 March,3:20 pm,Essendon,108,def.,Gold Coast,80,Marvel Stadium,32915
+AFL-M,2,Sunday,26 March,3:20 pm,West Coast,100,def.,Greater Western Sydney,81,Optus Stadium,44649
+AFL-M,3,Thursday,30 March,7:20 pm,Western Bulldogs,67,def.,Brisbane Lions,53,Marvel Stadium,23665
+AFL-M,3,Friday,31 March,7:50 pm,Collingwood,63,def.,Richmond,49,Melbourne Cricket Ground,85241
+AFL-M,3,Saturday,1 April,1:45 pm,Hawthorn,80,def.,North Melbourne,61,University of Tasmania Stadium,11007
+AFL-M,3,Saturday,1 April,4:35 pm,Greater Western Sydney,64,def. by,Carlton,74,Giants Stadium,9691
+AFL-M,3,Saturday,1 April,7:25 pm,St Kilda,92,def.,Essendon,74,Melbourne Cricket Ground,69255
+AFL-M,3,Saturday,1 April,7:30 pm,Port Adelaide,86,def. by,Adelaide,117,Adelaide Oval,48962
+AFL-M,3,Sunday,2 April,2:10 pm,Gold Coast,73,def.,Geelong,54,Heritage Bank Stadium,13122
+AFL-M,3,Sunday,2 April,3:20 pm,Melbourne,134,def.,Sydney,84,Melbourne Cricket Ground,42423
+AFL-M,3,Sunday,2 April,3:20 pm,Fremantle,108,def.,West Coast,67,Optus Stadium,56090
+AFL-M,4,Thursday,6 April,7:35 pm,Brisbane Lions,116,def.,Collingwood,83,The Gabba,33565
+AFL-M,4,Friday,7 April,4:20 pm,North Melbourne,84,def. by,Carlton,107,Marvel Stadium,49062
+AFL-M,4,Saturday,8 April,1:15 pm,Adelaide,111,def.,Fremantle,72,Adelaide Oval,33725
+AFL-M,4,Saturday,8 April,4:35 pm,Richmond,84,def. by,Western Bulldogs,89,Melbourne Cricket Ground,56449
+AFL-M,4,Saturday,8 April,7:30 pm,Sydney,64,def. by,Port Adelaide,66,Sydney Cricket Ground,31686
+AFL-M,4,Saturday,8 April,7:30 pm,St Kilda,113,def.,Gold Coast,60,Marvel Stadium,21049
+AFL-M,4,Sunday,9 April,2:10 pm,Essendon,88,def.,Greater Western Sydney,75,Marvel Stadium,28815
+AFL-M,4,Sunday,9 April,3:20 pm,West Coast,63,def. by,Melbourne,126,Optus Stadium,42458
+AFL-M,4,Monday,10 April,3:20 pm,Geelong,127,def.,Hawthorn,45,Melbourne Cricket Ground,65335
+AFL-M,5,Thursday,13 April,7:10 pm,Adelaide,118,def.,Carlton,62,Adelaide Oval,47395
+AFL-M,5,Friday,14 April,4:40 pm,Gold Coast,90,def. by,Fremantle,100,Norwood Oval,9329
+AFL-M,5,Friday,14 April,7:40 pm,Sydney,122,def.,Richmond,78,Adelaide Oval,42134
+AFL-M,5,Saturday,15 April,12:40 pm,North Melbourne,77,def. by,Brisbane Lions,152,Summit Sports Park,7329
+AFL-M,5,Saturday,15 April,3:40 pm,Melbourne,77,def. by,Essendon,104,Adelaide Oval,33832
+AFL-M,5,Saturday,15 April,7:20 pm,Port Adelaide,70,def.,Western Bulldogs,56,Adelaide Oval,45115
+AFL-M,5,Sunday,16 April,12:40 pm,West Coast,89,def. by,Geelong,136,Adelaide Oval,30120
+AFL-M,5,Sunday,16 April,2:50 pm,Greater Western Sydney,77,def.,Hawthorn,75,Norwood Oval,9057
+AFL-M,5,Sunday,16 April,4:20 pm,St Kilda,64,def. by,Collingwood,70,Adelaide Oval,43976
+AFL-M,6,Friday,21 April,6:10 pm,Fremantle,69,def. by,Western Bulldogs,118,Optus Stadium,47503
+AFL-M,6,Saturday,22 April,1:15 pm,Port Adelaide,109,def.,West Coast,69,Adelaide Oval,31638
+AFL-M,6,Saturday,22 April,4:35 pm,Greater Western Sydney,87,def. by,Brisbane Lions,108,Manuka Oval,10461
+AFL-M,6,Saturday,22 April,7:25 pm,Geelong,130,def.,Sydney,37,GMHBA Stadium,23134
+AFL-M,6,Sunday,23 April,1:10 pm,Hawthorn,76,def. by,Adelaide,79,University of Tasmania Stadium,10119
+AFL-M,6,Sunday,23 April,3:20 pm,Carlton,60,def. by,St Kilda,82,Marvel Stadium,45770
+AFL-M,6,Sunday,23 April,4:40 pm,Gold Coast,97,def.,North Melbourne,54,Heritage Bank Stadium,9672
+AFL-M,6,Monday,24 April,7:25 pm,Melbourne,96,def.,Richmond,78,Melbourne Cricket Ground,83985
+AFL-M,6,Tuesday,25 April,3:20 pm,Collingwood,90,def.,Essendon,77,Melbourne Cricket Ground,95179
+AFL-M,7,Friday,28 April,7:50 pm,St Kilda,76,def. by,Port Adelaide,83,Marvel Stadium,25845
+AFL-M,7,Saturday,29 April,1:45 pm,Brisbane Lions,115,def.,Fremantle,67,The Gabba,25528
+AFL-M,7,Saturday,29 April,2:10 pm,Sydney,106,def. by,Greater Western Sydney,107,Sydney Cricket Ground,31615
+AFL-M,7,Saturday,29 April,4:35 pm,Western Bulldogs,94,def.,Hawthorn,65,Marvel Stadium,40119
+AFL-M,7,Saturday,29 April,7:25 pm,Melbourne,139,def.,North Melbourne,49,Melbourne Cricket Ground,29455
+AFL-M,7,Saturday,29 April,5:30 pm,West Coast,44,def. by,Carlton,152,Optus Stadium,47940
+AFL-M,7,Sunday,30 April,1:10 pm,Essendon,104,def. by,Geelong,132,Melbourne Cricket Ground,67457
+AFL-M,7,Sunday,30 April,3:20 pm,Richmond,48,def. by,Gold Coast,72,Marvel Stadium,23664
+AFL-M,7,Sunday,30 April,4:10 pm,Adelaide,58,def. by,Collingwood,59,Adelaide Oval,43942
+AFL-M,8,Friday,5 May,7:50 pm,Carlton,74,def. by,Brisbane Lions,100,Marvel Stadium,45458
+AFL-M,8,Saturday,6 May,1:45 pm,Richmond,104,def.,West Coast,58,Melbourne Cricket Ground,28293
+AFL-M,8,Saturday,6 May,2:10 pm,Geelong,98,def.,Adelaide,72,GMHBA Stadium,21415
+AFL-M,8,Saturday,6 May,4:35 pm,Gold Coast,85,def. by,Melbourne,90,Heritage Bank Stadium,11440
+AFL-M,8,Saturday,6 May,7:30 pm,Greater Western Sydney,71,def. by,Western Bulldogs,86,Manuka Oval,10039
+AFL-M,8,Saturday,6 May,5:30 pm,Fremantle,117,def.,Hawthorn,48,Optus Stadium,37160
+AFL-M,8,Sunday,7 May,12:40 pm,Port Adelaide,92,def.,Essendon,87,Adelaide Oval,36247
+AFL-M,8,Sunday,7 May,3:20 pm,Collingwood,77,def.,Sydney,48,Melbourne Cricket Ground,71463
+AFL-M,8,Sunday,7 May,4:40 pm,North Melbourne,34,def. by,St Kilda,64,Marvel Stadium,22065
+AFL-M,9,Friday,12 May,7:20 pm,Richmond,102,def.,Geelong,78,Melbourne Cricket Ground,58141
+AFL-M,9,Friday,12 May,6:40 pm,West Coast,43,def. by,Gold Coast,113,Optus Stadium,36219
+AFL-M,9,Saturday,13 May,1:45 pm,Sydney,86,def. by,Fremantle,103,Sydney Cricket Ground,28927
+AFL-M,9,Saturday,13 May,2:10 pm,North Melbourne,65,def. by,Port Adelaide,135,Blundstone Arena,6310
+AFL-M,9,Saturday,13 May,4:35 pm,Hawthorn,49,def. by,Melbourne,103,Melbourne Cricket Ground,39818
+AFL-M,9,Saturday,13 May,7:25 pm,Brisbane Lions,87,def.,Essendon,45,The Gabba,31898
+AFL-M,9,Saturday,13 May,7:30 pm,Carlton,59,def. by,Western Bulldogs,79,Marvel Stadium,42756
+AFL-M,9,Sunday,14 May,12:40 pm,Adelaide,121,def.,St Kilda,69,Adelaide Oval,33805
+AFL-M,9,Sunday,14 May,4:40 pm,Collingwood,120,def.,Greater Western Sydney,55,Melbourne Cricket Ground,37631
+AFL-M,10,Friday,19 May,7:20 pm,Yartapuulti,80,def.,Narrm,76,Adelaide Oval,37565
+AFL-M,10,Saturday,20 May,1:45 pm,North Melbourne,90,def. by,Sydney,93,Marvel Stadium,21003
+AFL-M,10,Saturday,20 May,2:10 pm,Western Bulldogs,85,def.,Adelaide,40,Mars Stadium,10114
+AFL-M,10,Saturday,20 May,2:35 pm,Walyalup,106,def.,Geelong,77,Optus Stadium,45811
+AFL-M,10,Saturday,20 May,7:30 pm,Brisbane Lions,107,def.,Gold Coast,64,The Gabba,23286
+AFL-M,10,Saturday,20 May,7:40 pm,Essendon,71,def.,Richmond,70,Melbourne Cricket Ground,78300
+AFL-M,10,Sunday,21 May,1:10 pm,Hawthorn,142,def.,West Coast,26,University of Tasmania Stadium,9135
+AFL-M,10,Sunday,21 May,3:20 pm,Carlton,57,def. by,Collingwood,85,Melbourne Cricket Ground,80354
+AFL-M,10,Sunday,21 May,4:40 pm,Greater Western Sydney,80,def. by,St Kilda,92,Giants Stadium,7508
+AFL-M,11,Friday,26 May,7:50 pm,Sydney,77,def.,Carlton,51,Sydney Cricket Ground,36310
+AFL-M,11,Saturday,27 May,1:45 pm,St Kilda,78,def. by,Hawthorn,88,Marvel Stadium,32022
+AFL-M,11,Saturday,27 May,2:10 pm,Narrm,72,def. by,Walyalup,79,Melbourne Cricket Ground,29154
+AFL-M,11,Saturday,27 May,4:35 pm,Geelong,74,def. by,Greater Western Sydney,81,GMHBA Stadium,21349
+AFL-M,11,Saturday,27 May,6:55 pm,Gold Coast,84,def.,Western Bulldogs,77,TIO Stadium,9316
+AFL-M,11,Saturday,27 May,5:40 pm,West Coast,46,def. by,Essendon,96,Optus Stadium,39269
+AFL-M,11,Sunday,28 May,1:10 pm,Richmond,67,def. by,Yartapuulti,77,Melbourne Cricket Ground,30357
+AFL-M,11,Sunday,28 May,3:20 pm,Collingwood,105,def.,North Melbourne,70,Marvel Stadium,39467
+AFL-M,11,Sunday,28 May,4:10 pm,Adelaide,95,def.,Brisbane Lions,78,Adelaide Oval,33188
+AFL-M,12,Friday,2 June,7:50 pm,Melbourne,61,def.,Carlton,44,Melbourne Cricket Ground,49872
+AFL-M,12,Saturday,3 June,1:15 pm,Port Adelaide,151,def.,Hawthorn,96,Adelaide Oval,34234
+AFL-M,12,Saturday,3 June,2:35 pm,West Coast,57,def. by,Collingwood,120,Optus Stadium,41713
+AFL-M,12,Saturday,3 June,7:25 pm,Western Bulldogs,75,def. by,Geelong,97,Marvel Stadium,41944
+AFL-M,12,Saturday,3 June,7:00 pm,Gold Coast,112,def.,Adelaide,87,TIO Stadium,10772
+AFL-M,12,Sunday,4 June,1:10 pm,Greater Western Sydney,104,def. by,Richmond,110,Giants Stadium,9723
+AFL-M,12,Sunday,4 June,4:40 pm,Essendon,105,def.,North Melbourne,99,Marvel Stadium,40488
+AFL-M,13,Thursday,8 June,7:10 pm,Sydney,66,def. by,St Kilda,80,Sydney Cricket Ground,30123
+AFL-M,13,Friday,9 June,7:50 pm,Western Bulldogs,85,def. by,Port Adelaide,107,Marvel Stadium,23110
+AFL-M,13,Saturday,10 June,1:45 pm,Hawthorn,98,def.,Brisbane Lions,73,Melbourne Cricket Ground,35869
+AFL-M,13,Saturday,10 June,4:05 pm,Adelaide,174,def.,West Coast,52,Adelaide Oval,39450
+AFL-M,13,Saturday,10 June,5:25 pm,Fremantle,70,def. by,Richmond,85,Optus Stadium,46843
+AFL-M,13,Sunday,11 June,3:20 pm,North Melbourne,75,def. by,Greater Western Sydney,103,Blundstone Arena,5025
+AFL-M,13,Sunday,11 June,7:15 pm,Carlton,52,def. by,Essendon,86,Melbourne Cricket Ground,83638
+AFL-M,13,Monday,12 June,3:20 pm,Melbourne,66,def.,Collingwood,62,Melbourne Cricket Ground,83578
+AFL-M,14,Thursday,15 June,7:10 pm,Port Adelaide,110,def.,Geelong,72,Adelaide Oval,36316
+AFL-M,14,Friday,16 June,7:50 pm,Brisbane Lions,97,def.,Sydney,81,The Gabba,28561
+AFL-M,14,Saturday,17 June,4:35 pm,Greater Western Sydney,106,def.,Fremantle,36,Giants Stadium,8633
+AFL-M,14,Saturday,17 June,7:25 pm,Richmond,90,def.,St Kilda,70,Melbourne Cricket Ground,62686
+AFL-M,14,Sunday,18 June,1:10 pm,Carlton,120,def.,Gold Coast,61,Melbourne Cricket Ground,29602
+AFL-M,14,Sunday,18 June,4:40 pm,North Melbourne,84,def. by,Western Bulldogs,105,Marvel Stadium,23829
+AFL-M,15,Thursday,22 June,7:20 pm,Geelong,78,def.,Melbourne,63,GMHBA Stadium,19617
+AFL-M,15,Friday,23 June,7:50 pm,St Kilda,56,def. by,Brisbane Lions,84,Marvel Stadium,28985
+AFL-M,15,Saturday,24 June,4:35 pm,Sydney,205,def.,West Coast,34,Sydney Cricket Ground,31367
+AFL-M,15,Saturday,24 June,5:30 pm,Fremantle,93,def.,Essendon,61,Optus Stadium,43063
+AFL-M,15,Sunday,25 June,1:10 pm,Collingwood,82,def.,Adelaide,80,Melbourne Cricket Ground,65930
+AFL-M,15,Sunday,25 June,4:40 pm,Gold Coast,101,def.,Hawthorn,34,Heritage Bank Stadium,14242
+AFL-M,16,Thursday,29 June,7:20 pm,Brisbane Lions,134,def.,Richmond,53,The Gabba,30022
+AFL-M,16,Friday,30 June,7:50 pm,Sydney,54,drew with,Geelong,54,Sydney Cricket Ground,32098
+AFL-M,16,Saturday,1 July,1:15 pm,Adelaide,138,def.,North Melbourne,72,Adelaide Oval,35226
+AFL-M,16,Saturday,1 July,1:45 pm,Western Bulldogs,102,def.,Fremantle,73,Marvel Stadium,25412
+AFL-M,16,Saturday,1 July,4:35 pm,Gold Coast,42,def. by,Collingwood,120,Heritage Bank Stadium,22483
+AFL-M,16,Saturday,1 July,7:25 pm,Essendon,74,def. by,Port Adelaide,78,Melbourne Cricket Ground,38957
+AFL-M,16,Sunday,2 July,1:10 pm,Hawthorn,52,def. by,Carlton,112,Melbourne Cricket Ground,66337
+AFL-M,16,Sunday,2 July,2:50 pm,Melbourne,45,def. by,Greater Western Sydney,47,TIO Traeger Park,3413
+AFL-M,16,Sunday,2 July,2:40 pm,West Coast,77,def. by,St Kilda,85,Optus Stadium,35579
+AFL-M,17,Thursday,6 July,7:20 pm,Richmond,88,def.,Sydney,75,Melbourne Cricket Ground,48443
+AFL-M,17,Friday,7 July,7:50 pm,Western Bulldogs,77,def. by,Collingwood,89,Marvel Stadium,43482
+AFL-M,17,Saturday,8 July,1:45 pm,Brisbane Lions,116,def.,West Coast,35,The Gabba,24843
+AFL-M,17,Saturday,8 July,4:35 pm,Greater Western Sydney,85,def.,Hawthorn,72,Giants Stadium,9007
+AFL-M,17,Saturday,8 July,7:25 pm,St Kilda,58,def. by,Melbourne,79,Marvel Stadium,30749
+AFL-M,17,Saturday,8 July,7:10 pm,Port Adelaide,106,def.,Gold Coast,73,Adelaide Oval,31053
+AFL-M,17,Sunday,9 July,1:10 pm,Geelong,125,def.,North Melbourne,63,GMHBA Stadium,21066
+AFL-M,17,Sunday,9 July,3:20 pm,Essendon,115,def.,Adelaide,97,Marvel Stadium,39606
+AFL-M,17,Sunday,9 July,2:40 pm,Fremantle,45,def. by,Carlton,98,Optus Stadium,49469
+AFL-M,18,Thursday,13 July,7:20 pm,Sydney,78,def.,Western Bulldogs,76,Sydney Cricket Ground,26221
+AFL-M,18,Friday,14 July,7:50 pm,Melbourne,105,def.,Brisbane Lions,104,Melbourne Cricket Ground,38030
+AFL-M,18,Saturday,15 July,1:45 pm,Collingwood,113,def.,Fremantle,67,Melbourne Cricket Ground,61157
+AFL-M,18,Saturday,15 July,2:10 pm,Gold Coast,77,def.,St Kilda,51,Heritage Bank Stadium,13015
+AFL-M,18,Saturday,15 July,4:35 pm,Carlton,122,def.,Port Adelaide,72,Marvel Stadium,34306
+AFL-M,18,Saturday,15 July,7:25 pm,Geelong,122,def.,Essendon,45,GMHBA Stadium,23185
+AFL-M,18,Saturday,15 July,7:10 pm,Adelaide,57,def. by,Greater Western Sydney,71,Adelaide Oval,36674
+AFL-M,18,Sunday,16 July,1:10 pm,North Melbourne,40,def. by,Hawthorn,88,Marvel Stadium,30201
+AFL-M,18,Sunday,16 July,2:40 pm,West Coast,60,def. by,Richmond,98,Optus Stadium,40501
+AFL-M,19,Friday,21 July,7:50 pm,Essendon,49,def. by,Western Bulldogs,90,Marvel Stadium,43634
+AFL-M,19,Saturday,22 July,1:45 pm,Richmond,96,def.,Hawthorn,95,Melbourne Cricket Ground,57654
+AFL-M,19,Saturday,22 July,2:10 pm,Carlton,140,def.,West Coast,69,Marvel Stadium,34954
+AFL-M,19,Saturday,22 July,4:35 pm,Brisbane Lions,64,def.,Geelong,53,The Gabba,32586
+AFL-M,19,Saturday,22 July,5:40 pm,Fremantle,76,def. by,Sydney,105,Optus Stadium,42433
+AFL-M,19,Saturday,22 July,7:10 pm,Port Adelaide,83,def. by,Collingwood,85,Adelaide Oval,47965
+AFL-M,19,Sunday,23 July,1:10 pm,Greater Western Sydney,103,def.,Gold Coast,63,Manuka Oval,10026
+AFL-M,19,Sunday,23 July,3:20 pm,Melbourne,97,def.,Adelaide,93,Melbourne Cricket Ground,33122
+AFL-M,19,Sunday,23 July,4:40 pm,St Kilda,69,def.,North Melbourne,61,Marvel Stadium,18279
+AFL-M,20,Friday,28 July,7:50 pm,Collingwood,76,def. by,Carlton,93,Melbourne Cricket Ground,86785
+AFL-M,20,Saturday,29 July,1:45 pm,Geelong,64,def. by,Fremantle,71,GMHBA Stadium,21619
+AFL-M,20,Saturday,29 July,1:45 pm,Western Bulldogs,73,def. by,Greater Western Sydney,78,Mars Stadium,9080
+AFL-M,20,Saturday,29 July,4:35 pm,Gold Coast,96,def.,Brisbane Lions,55,Heritage Bank Stadium,14097
+AFL-M,20,Saturday,29 July,7:25 pm,Essendon,99,def. by,Sydney,101,Marvel Stadium,38329
+AFL-M,20,Saturday,29 July,7:10 pm,Adelaide,112,def.,Port Adelaide,65,Adelaide Oval,50023
+AFL-M,20,Sunday,30 July,1:10 pm,Hawthorn,93,def. by,St Kilda,122,Marvel Stadium,22769
+AFL-M,20,Sunday,30 July,3:20 pm,Richmond,98,def. by,Melbourne,130,Melbourne Cricket Ground,52294
+AFL-M,20,Sunday,30 July,4:40 pm,West Coast,72,def.,North Melbourne,67,Optus Stadium,38231
+AFL-M,21,Friday,4 August,7:50 pm,Western Bulldogs,126,def.,Richmond,71,Marvel Stadium,39304
+AFL-M,21,Saturday,5 August,1:45 pm,Essendon,73,def.,West Coast,72,Marvel Stadium,30742
+AFL-M,21,Saturday,5 August,1:40 pm,Adelaide,89,def.,Gold Coast,61,Adelaide Oval,35777
+AFL-M,21,Saturday,5 August,4:35 pm,Hawthorn,105,def.,Collingwood,73,Melbourne Cricket Ground,62134
+AFL-M,21,Saturday,5 August,7:25 pm,Geelong,97,def.,Port Adelaide,85,GMHBA Stadium,21279
+AFL-M,21,Saturday,5 August,7:30 pm,Greater Western Sydney,85,def. by,Sydney,96,Giants Stadium,19332
+AFL-M,21,Sunday,6 August,1:10 pm,North Melbourne,71,def. by,Melbourne,103,Blundstone Arena,8034
+AFL-M,21,Sunday,6 August,3:20 pm,St Kilda,54,def. by,Carlton,73,Marvel Stadium,42656
+AFL-M,21,Sunday,6 August,2:40 pm,Fremantle,74,def. by,Brisbane Lions,77,Optus Stadium,37845
+AFL-M,22,Friday,11 August,7:50 pm,Collingwood,109,def.,Geelong,101,Melbourne Cricket Ground,78749
+AFL-M,22,Saturday,12 August,1:45 pm,North Melbourne,77,def. by,Essendon,86,Marvel Stadium,37231
+AFL-M,22,Saturday,12 August,1:45 pm,Sydney,114,def.,Gold Coast,90,Sydney Cricket Ground,33911
+AFL-M,22,Saturday,12 August,4:35 pm,Brisbane Lions,99,def.,Adelaide,93,The Gabba,30107
+AFL-M,22,Saturday,12 August,7:30 pm,Carlton,60,def.,Melbourne,56,Melbourne Cricket Ground,68577
+AFL-M,22,Saturday,12 August,6:10 pm,West Coast,33,def. by,Fremantle,134,Optus Stadium,51172
+AFL-M,22,Sunday,13 August,1:10 pm,Hawthorn,67,def.,Western Bulldogs,64,University of Tasmania Stadium,12480
+AFL-M,22,Sunday,13 August,3:20 pm,St Kilda,93,def.,Richmond,57,Marvel Stadium,31119
+AFL-M,22,Sunday,13 August,4:10 pm,Port Adelaide,136,def.,Greater Western Sydney,85,Adelaide Oval,32597
+AFL-M,23,Friday,18 August,7:50 pm,Collingwood,100,def. by,Brisbane Lions,124,Marvel Stadium,38350
+AFL-M,23,Saturday,19 August,1:45 pm,Richmond,101,def.,North Melbourne,72,Melbourne Cricket Ground,59555
+AFL-M,23,Saturday,19 August,2:10 pm,Gold Coast,87,def. by,Carlton,91,Heritage Bank Stadium,19253
+AFL-M,23,Saturday,19 August,4:35 pm,Greater Western Sydney,162,def.,Essendon,36,Giants Stadium,10281
+AFL-M,23,Saturday,19 August,7:25 pm,St Kilda,88,def.,Geelong,55,Marvel Stadium,40103
+AFL-M,23,Saturday,19 August,7:10 pm,Adelaide,73,def. by,Sydney,74,Adelaide Oval,44817
+AFL-M,23,Sunday,20 August,1:10 pm,Western Bulldogs,85,def. by,West Coast,92,Marvel Stadium,23965
+AFL-M,23,Sunday,20 August,3:20 pm,Melbourne,87,def.,Hawthorn,60,Melbourne Cricket Ground,50142
+AFL-M,23,Sunday,20 August,2:40 pm,Fremantle,58,def. by,Port Adelaide,74,Optus Stadium,38360
+AFL-M,24,Friday,25 August,7:50 pm,Essendon,31,def. by,Collingwood,101,Melbourne Cricket Ground,74344
+AFL-M,24,Saturday,26 August,1:45 pm,North Melbourne,132,def.,Gold Coast,97,Blundstone Arena,4378
+AFL-M,24,Saturday,26 August,1:45 pm,Hawthorn,56,def. by,Fremantle,93,Melbourne Cricket Ground,27951
+AFL-M,24,Saturday,26 August,4:35 pm,Brisbane Lions,72,def.,St Kilda,60,The Gabba,31689
+AFL-M,24,Saturday,26 August,7:25 pm,Geelong,79,def. by,Western Bulldogs,104,GMHBA Stadium,20533
+AFL-M,24,Saturday,26 August,6:10 pm,West Coast,78,def. by,Adelaide,123,Optus Stadium,47027
+AFL-M,24,Sunday,27 August,12:00 pm,Port Adelaide,94,def.,Richmond,63,Adelaide Oval,39860
+AFL-M,24,Sunday,27 August,3:20 pm,Sydney,56,def. by,Melbourne,77,Sydney Cricket Ground,41753
+AFL-M,24,Sunday,27 August,6:10 pm,Carlton,73,def. by,Greater Western Sydney,105,Marvel Stadium,44354
+AFL-W,1,Friday,1 September,7:20 pm,Melbourne,73,def.,Collingwood,31,Ikon Park,8412
+AFL-W,1,Saturday,2 September,1:05 pm,Carlton,34,def.,Gold Coast,32,Ikon Park,3244
+AFL-W,1,Saturday,2 September,2:35 pm,Adelaide,58,def.,Port Adelaide,28,Norwood Oval,8722
+AFL-W,1,Saturday,2 September,5:05 pm,Geelong,65,def.,Western Bulldogs,17,GMHBA Stadium,4404
+AFL-W,1,Saturday,2 September,7:15 pm,Hawthorn,30,def. by,Essendon,49,Kinetic Stadium,3722
+AFL-W,1,Sunday,3 September,1:05 pm,North Melbourne,56,def.,St Kilda,16,Blundstone Arena,2454
+AFL-W,1,Sunday,3 September,3:05 pm,Brisbane,34,def. by,Richmond,40,Brighton Homes Arena,3153
+AFL-W,1,Sunday,3 September,3:05 pm,Sydney,51,def.,Greater Western Sydney,46,North Sydney Oval,5474
+AFL-W,1,Sunday,3 September,3:05 pm,Fremantle,27,def.,West Coast,19,Fremantle Community Bank Oval,3790
+AFL-W,2,Friday,8 September,5:05 pm,Richmond,12,def. by,Adelaide,41,Ikon Park,1083
+AFL-W,2,Saturday,9 September,11:05 am,Gold Coast,99,def.,West Coast,26,Heritage Bank Stadium,1071
+AFL-W,2,Saturday,9 September,12:35 pm,Port Adelaide,26,def. by,Brisbane,76,Alberton Oval,1928
+AFL-W,2,Saturday,9 September,1:05 pm,Sydney,41,def. by,Geelong,68,North Sydney Oval,2878
+AFL-W,2,Sunday,10 September,1:05 pm,Western Bulldogs,39,def. by,Hawthorn,46,Mars Stadium,1564
+AFL-W,2,Sunday,10 September,1:05 pm,Collingwood,46,def.,Fremantle,25,Victoria Park,1914
+AFL-W,2,Sunday,10 September,3:05 pm,North Melbourne,66,def.,Carlton,6,Arden Street Oval,2788
+AFL-W,2,Sunday,10 September,3:05 pm,Essendon,40,def.,St Kilda,28,Windy Hill,3195
+AFL-W,2,Sunday,10 September,5:05 pm,Greater Western Sydney,22,def. by,Melbourne,99,Manuka Oval,2028
+AFL-W,3,Friday,15 September,5:05 pm,Geelong,22,def. by,North Melbourne,31,GMHBA Stadium,2907
+AFL-W,3,Saturday,16 September,1:35 pm,Greater Western Sydney,34,def. by,Richmond,53,Blacktown ISP Oval,1051
+AFL-W,3,Saturday,16 September,2:35 pm,Adelaide,81,def.,Essendon,34,Unley Oval,2238
+AFL-W,3,Saturday,16 September,3:05 pm,Melbourne,83,def.,Western Bulldogs,41,Casey Fields,1457
+AFL-W,3,Saturday,16 September,3:05 pm,Fremantle,35,def.,Hawthorn,22,Fremantle Community Bank Oval,2092
+AFL-W,3,Sunday,17 September,1:05 pm,St Kilda,48,def. by,Port Adelaide,56,RSEA Park,2016
+AFL-W,3,Sunday,17 September,1:05 pm,West Coast,24,def. by,Carlton,77,Mineral Resources Park,1208
+AFL-W,3,Sunday,17 September,3:05 pm,Collingwood,21,def. by,Gold Coast,33,Victoria Park,2537
+AFL-W,3,Sunday,17 September,5:05 pm,Brisbane,87,def.,Sydney,32,Brighton Homes Arena,2582
+AFL-W,4,Friday,22 September,5:05 pm,Hawthorn,11,def. by,Melbourne,70,Kinetic Stadium,2817
+AFL-W,4,Saturday,23 September,11:05 am,Greater Western Sydney,37,def. by,Adelaide,106,Manuka Oval,1809
+AFL-W,4,Saturday,23 September,1:05 pm,Carlton,40,def. by,Richmond,47,Ikon Park,2304
+AFL-W,4,Saturday,23 September,12:35 pm,Port Adelaide,42,def. by,Geelong,70,Alberton Oval,2132
+AFL-W,4,Sunday,24 September,1:05 pm,Sydney,34,def.,West Coast,21,Henson Park,4595
+AFL-W,4,Sunday,24 September,1:05 pm,North Melbourne,33,def. by,Brisbane,35,University of Tasmania Stadium,1093
+AFL-W,4,Sunday,24 September,3:05 pm,Essendon,50,def.,Fremantle,30,Windy Hill,2822
+AFL-W,4,Sunday,24 September,3:05 pm,St Kilda,47,def.,Collingwood,35,RSEA Park,3230
+AFL-W,4,Sunday,24 September,5:05 pm,Gold Coast,48,def.,Western Bulldogs,44,Heritage Bank Stadium,1181
+AFL-W,5,Thursday,28 September,6:15 pm,Geelong,25,def. by,Melbourne,74,GMHBA Stadium,4312
+AFL-W,5,Friday,29 September,1:05 pm,Richmond,30,def. by,Fremantle,37,Ikon Park,2406
+AFL-W,5,Friday,29 September,4:05 pm,Carlton,44,def.,Sydney,39,Ikon Park,2079
+AFL-W,5,Friday,29 September,7:15 pm,Western Bulldogs,36,def. by,St Kilda,54,Whitten Oval,2807
+AFL-W,5,Friday,29 September,7:15 pm,West Coast,39,def.,Port Adelaide,33,Mineral Resources Park,1134
+AFL-W,5,Saturday,30 September,11:05 am,Collingwood,44,def.,Essendon,24,Punt Road Oval,1422
+AFL-W,5,Sunday,1 October,1:05 pm,North Melbourne,32,def.,Greater Western Sydney,2,Arden Street Oval,1833
+AFL-W,5,Sunday,1 October,3:05 pm,Hawthorn,32,def. by,Brisbane,59,Kinetic Stadium,1755
+AFL-W,5,Sunday,1 October,4:35 pm,Adelaide,47,def.,Gold Coast,15,Unley Oval,3300
+AFL-W,6,Friday,6 October,7:15 pm,Western Bulldogs,34,def. by,Carlton,53,Whitten Oval,2163
+AFL-W,6,Saturday,7 October,1:05 pm,Greater Western Sydney,44,def.,West Coast,24,Blacktown ISP Oval,927
+AFL-W,6,Saturday,7 October,3:05 pm,Melbourne,46,def. by,Adelaide,56,Casey Fields,1975
+AFL-W,6,Saturday,7 October,3:05 pm,St Kilda,45,def.,Hawthorn,36,RSEA Park,2812
+AFL-W,6,Saturday,7 October,4:35 pm,Port Adelaide,30,def. by,Sydney,45,Alberton Oval,2597
+AFL-W,6,Saturday,7 October,6:15 pm,Brisbane,28,def. by,Collingwood,33,Brighton Homes Arena,3276
+AFL-W,6,Sunday,8 October,1:05 pm,Essendon,29,def.,Geelong,19,Reid Oval,2832
+AFL-W,6,Sunday,8 October,3:05 pm,Richmond,35,def. by,Gold Coast,36,Ikon Park,1848
+AFL-W,6,Sunday,8 October,2:05 pm,Fremantle,21,def. by,North Melbourne,66,Fremantle Community Bank Oval,2022
+AFL-W,7,Friday,13 October,6:45 pm,Adelaide,59,def.,Western Bulldogs,17,Norwood Oval,2745
+AFL-W,7,Saturday,14 October,1:05 pm,St Kilda,48,def.,Greater Western Sydney,35,RSEA Park,1402
+AFL-W,7,Saturday,14 October,3:05 pm,Geelong,47,def.,Walyalup,23,GMHBA Stadium,2166
+AFL-W,7,Saturday,14 October,3:05 pm,Sydney,26,def. by,Hawthorn,40,Henson Park,4514
+AFL-W,7,Saturday,14 October,4:05 pm,Gold Coast,21,def. by,Brisbane,57,Heritage Bank Stadium,1873
+AFL-W,7,Saturday,14 October,7:20 pm,Richmond,36,def. by,Essendon,53,Ikon Park,2847
+AFL-W,7,Sunday,15 October,1:05 pm,North Melbourne,87,def.,Yartapuulti,24,Arden Street Oval,1912
+AFL-W,7,Sunday,15 October,3:05 pm,Carlton,10,def. by,Collingwood,27,Ikon Park,3111
+AFL-W,7,Sunday,15 October,2:05 pm,West Coast,12,def. by,Narrm,82,Mineral Resources Park,1232
+AFL-W,8,Friday,20 October,6:45 pm,Hawthorn,30,def. by,Richmond,41,Cazalys Stadium,1933
+AFL-W,8,Saturday,21 October,1:05 pm,Western Bulldogs,39,def. by,Sydney,96,Whitten Oval,2982
+AFL-W,8,Saturday,21 October,2:05 pm,Brisbane,42,def.,Adelaide,39,Brighton Homes Arena,2544
+AFL-W,8,Saturday,21 October,3:05 pm,Greater Western Sydney,49,def.,Carlton,47,Henson Park,1574
+AFL-W,8,Saturday,21 October,4:35 pm,Yartapuulti,45,drew with,Gold Coast,45,Alberton Oval,1853
+AFL-W,8,Saturday,21 October,7:15 pm,Narrm,37,def.,North Melbourne,14,Ikon Park,2704
+AFL-W,8,Sunday,22 October,1:05 pm,Collingwood,30,def.,Geelong,24,Victoria Park,2527
+AFL-W,8,Sunday,22 October,12:05 pm,Walyalup,45,def.,St Kilda,21,Fremantle Community Bank Oval,1850
+AFL-W,8,Sunday,22 October,5:05 pm,Essendon,19,def. by,West Coast,23,Windy Hill,2108
+AFL-W,9,Friday,27 October,6:45 pm,Gold Coast,48,def.,Greater Western Sydney,17,Heritage Bank Stadium,1045
+AFL-W,9,Saturday,28 October,1:05 pm,Melbourne,61,def.,Fremantle,28,Casey Fields,1650
+AFL-W,9,Saturday,28 October,3:05 pm,St Kilda,55,def.,Brisbane,34,RSEA Park,2005
+AFL-W,9,Saturday,28 October,3:05 pm,Essendon,56,def.,Carlton,24,Windy Hill,3812
+AFL-W,9,Saturday,28 October,2:05 pm,West Coast,36,def. by,Western Bulldogs,44,Mineral Resources Park,1447
+AFL-W,9,Saturday,28 October,7:15 pm,Richmond,11,def. by,Geelong,49,Ikon Park,2021
+AFL-W,9,Sunday,29 October,1:05 pm,Sydney,58,def.,Collingwood,39,Henson Park,5722
+AFL-W,9,Sunday,29 October,2:35 pm,Adelaide,41,def.,North Melbourne,38,Norwood Oval,3362
+AFL-W,9,Sunday,29 October,5:05 pm,Hawthorn,40,def.,Port Adelaide,32,Kinetic Stadium,1771
+AFL-W,10,Friday,3 November,6:45 pm,Gold Coast,39,def.,Essendon,25,Great Barrier Reef Arena,2131
+AFL-W,10,Saturday,4 November,1:05 pm,Western Bulldogs,9,def. by,North Melbourne,55,Whitten Oval,2608
+AFL-W,10,Saturday,4 November,2:35 pm,Port Adelaide,88,def.,Greater Western Sydney,30,Alberton Oval,3353
+AFL-W,10,Saturday,4 November,5:05 pm,Geelong,60,def.,Hawthorn,20,GMHBA Stadium,3658
+AFL-W,10,Saturday,4 November,2:05 pm,West Coast,45,def. by,Adelaide,71,Mineral Resources Park,938
+AFL-W,10,Saturday,4 November,6:05 pm,Brisbane,53,def.,Melbourne,28,Brighton Homes Arena,3004
+AFL-W,10,Sunday,5 November,1:05 pm,Carlton,26,def. by,St Kilda,46,Ikon Park,2649
+AFL-W,10,Sunday,5 November,3:05 pm,Collingwood,25,def. by,Richmond,77,Victoria Park,3948
+AFL-W,10,Sunday,5 November,2:05 pm,Fremantle,18,def. by,Sydney,40,Fremantle Community Bank Oval,2271

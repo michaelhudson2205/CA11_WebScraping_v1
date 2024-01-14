@@ -1,0 +1,7 @@
+URLs for the different competitions.
+
+Women
+url_w = "https://en.wikipedia.org/wiki/2023_AFL_Women%27s_season"
+
+Men
+url_m = "https://en.wikipedia.org/wiki/2023_AFL_season"
